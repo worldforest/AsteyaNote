@@ -1,0 +1,56 @@
+# ======================
+# Python 관련
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.cover
+*.mypy_cache/
+*.pyre/
+*.ruff_cache/
+
+# ======================
+# 가상환경
+# ======================
+venv/
+ENV/
+env/
+.env/
+
+# ======================
+# Django 관련
+# ======================
+*.log
+db.sqlite3
+media/
+staticfiles/
+*.pot
+*.pyc
+
+# ======================
+# OS 관련
+# ======================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ======================
+# IDE / Editor 관련
+# ======================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ======================
+# 기타
+# ======================
+*.swp
+*.bak
